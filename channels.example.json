@@ -1,0 +1,17 @@
+{
+ "defaults": {
+  "layout": "zoom",
+  "ratio": 2.5,
+  "min_msgs": 12,
+  "audio_db": 9,
+  "cooldown": 45,
+  "before": 35,
+  "after": 8,
+  "beep": true
+ },
+ "channels": [
+  {"channel": "streamer_one", "platform": "twitch", "enabled": false, "note": "the clipping campaign that allows this (e.g. a Whop Content Rewards link)"},
+  {"channel": "streamer_two", "platform": "twitch", "enabled": false, "layout": "cam", "cam": [0.0, 0.62, 0.27, 0.38], "note": "facecam bottom-left: x, y, w, h as fractions of the frame"},
+  {"channel": "streamer_three", "platform": "kick", "enabled": false, "note": "Kick: audio spikes only"}
+ ]
+}

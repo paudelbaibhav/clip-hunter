@@ -1,0 +1,14 @@
+# your data — never commit
+runs/
+channels.json
+dashboard.html
+tools/
+fonts/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.mp4
+*.ts
+*.ass
+.env
