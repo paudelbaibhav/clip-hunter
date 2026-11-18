@@ -14,6 +14,17 @@ Tested on a real GTA 5 roleplay stream: 2 hours, 1,384 chat messages, 6 clips fo
 
 ## Install: nothing to type
 
+**Easiest:** open Claude (or any AI) and paste this:
+
+```text
+Hi Claude! Please set up "Clip Hunter" on my computer. It's a free app that finds the craziest moments of Twitch streams and cuts them into clips.
+Instructions: https://raw.githubusercontent.com/paudelbaibhav/clip-hunter/main/START.md
+Do every step for me, use simple words, and ask me before installing anything.
+If you can't run things on my computer, tell me exactly where to paste this one line:
+Windows: irm https://raw.githubusercontent.com/paudelbaibhav/clip-hunter/main/install.ps1 | iex
+Mac: curl -fsSL https://raw.githubusercontent.com/paudelbaibhav/clip-hunter/main/install.sh | bash
+```
+
 **With an AI:** give [START.md](START.md) to any AI that can run commands (Claude Code, Cursor, Codex, …). It installs
 everything, cuts your first clips and opens the review page. You only answer "OK" and "which streamer?".
 A chat-only AI (ChatGPT, Claude, Gemini in the browser) will hand you the one line below to paste.

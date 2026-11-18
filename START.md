@@ -20,6 +20,16 @@ simple sentences.
 Say: *"I'll install Clip Hunter in a folder called clip-hunter in your home folder. It downloads about 1 GB (Python
 packages, ffmpeg, a caption model) and takes 5–10 minutes. OK?"* Wait for yes.
 
+### If you can't run commands on their computer (chat-only AI)
+Don't explain anything technical. Tell them exactly this, filling in their system:
+- **Windows:** "Press the Windows key, type **PowerShell**, press Enter. Paste this line and press Enter:
+  `irm https://raw.githubusercontent.com/paudelbaibhav/clip-hunter/main/install.ps1 | iex`. Wait until it says
+  *Clip Hunter is ready* (5–10 minutes), then tell me."
+- **Mac:** "Press Cmd+Space, type **Terminal**, press Enter. Paste this line and press Enter:
+  `curl -fsSL https://raw.githubusercontent.com/paudelbaibhav/clip-hunter/main/install.sh | bash`. Wait until it says
+  *Clip Hunter is ready*, then tell me."
+Then guide steps 2–4 the same way: give one line at a time to paste into that same window, and say what it will do.
+
 ### 1. Run the installer (one command)
 Detect the operating system, then run exactly one of these:
 
